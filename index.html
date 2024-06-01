@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compound Interest Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Mutual Fund Compound Interest Calculator</h1></header>
+    <section class="card">
+        <div class="calculator_card">
+            <form action="">
+                <h1 class="name">Mutual Fund Calculator</h1>
+                <label class="label" for="initial_investment">Initial Investment($):</label>
+                <input type="number" id="initial_investment" required>
+                <label class="label" for="monthly_contribution">Monthly Contribution($):</label>
+                <input type="number" id="monthly_contribution" required>
+                <label class="label" for="annual_compound_rate">Annual Interest Rate(%):</label>
+                <input type="number" id="annual_compound_rate" required>
+                <label class="label" for="number_of_years">Number of Years(Y):</label>
+                <input type="number" id="number_of_years" required>
+                <div class="div btn">
+                    <button type="button" class="mutualcal" onclick="mutualFund()">Calculate</button>
+                    <button class="mutualcal" id="clear" onclick="clearFields()">Clear</button>
+                </div>
+            </form>
+        </div>
+        <div class="display">
+            <p id="total_amount"></p>
+            <p id="total_invested"></p>
+            <p id="compound_interest_earned"></p>
+        </div>
+    </section>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>

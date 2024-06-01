@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a9d8f;
+    height: 50px;
+}
+
+h1{
+    font-size: 25px;
+    color: #fff;
+}
+
+.card{
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.name{
+    color: #2a9d8f;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.calculator_card{
+    height: auto;
+    width: 350px;
+    border: 1px solid #2a9d8f;
+    border-radius: 5px;
+    padding: 15px;
+    
+}
+
+form{
+    display: grid;
+}
+
+.lable{
+    padding: 5px;
+}
+
+input{
+    padding: 5px;
+}
+
+.mutualcal{
+    height: auto;
+    width: fit-content;
+    font-size: 20px;
+    padding: 5px;
+    margin: 20px 0 10px 0;
+    background-color: #2a9d8f;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+.display{
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border: 1px solid #2a9d8f;
+    margin-top: 20px;
+    border-radius: 5px;
+}
